@@ -1,0 +1,44 @@
+
+#konlpy 깃허브
+https://github.com/mrlee23/KoreanSentimentAnalyzer
+
+#konlpy 사용법
+https://datascienceschool.net/03%20machine%20learning/03.01.02%20KoNLPy%20%ED%95%9C%EA%B5%AD%EC%96%B4%20%EC%B2%98%EB%A6%AC%20%ED%8C%A8%ED%82%A4%EC%A7%80.html
+
+
+
+#코인 공포,탐욕 지수
+https://blog.naver.com/PostView.nhn?blogId=wolfjh2&logNo=222406588291
+
+
+
+
+
+# 한국어 감성 사전
+
+KOSAC : 개발자의 동의를 얻어 사용 가능 http://word.snu.ac.kr/kosac/index.php
+https://codingstudyroom.tistory.com/68
+
+
+EmoLex : 14,182개의 단어에 대해 영어 뿐만 아니라 한국어 포함 105개국 언어에 대한 감성 사전을 제공한다. 
+
+KNU한국어 감성사전
+
+
+
+영어 => 한국어로 번역 => 영어 감성사전 사용
+
+
+
+
+1. 라벨링용 뉴스타이틀 데이터수집(크롤링), 일자별 뉴스타이틀 데이터수집(일자별 리스트형태로 크롤링), VIX지수(일자별) 크롤링
+
+2. 뉴스타이틀 영어로 번역
+
+3. 영어 감정사전을 이용해, 감정스코어 게산, 일자별 감정스코어 평균과 VIX지수와 상관관계 시각화
+
+4. 감정스코어로 라벨링(감정스코어 -> 0,1로 구분)
+
+5. 다시 한국어로 딥러닝을 활용하여 기사 감정분석
+
+6. 이런 발상,기술들을 활용하여 주식관련 공포지수,탐욕지수 지표를 만들 수 있지 않을까? (계획)
